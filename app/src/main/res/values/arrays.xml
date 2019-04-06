@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regular_purple">
+        <item>#512da8</item>
+        <item>#673ab7</item>
+        <item>#9575cd</item>
+    </string-array>
+</resources>

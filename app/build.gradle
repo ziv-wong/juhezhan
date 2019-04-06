@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+    }
+    compileSdkVersion 25
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.ziv.juhezhan"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // Enabling multidex support.  
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+def support_version = "25.4.0"
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile "com.android.support:appcompat-v7:$support_version"
+    compile "com.android.support:animated-vector-drawable:$support_version"
+    compile "com.android.support:design:$support_version"
+    compile "com.android.support:support-annotations:$support_version"
+    testCompile 'junit:junit:4.12'
+    // Recyclerview
+    compile "com.android.support:recyclerview-v7:$support_version"
+    // Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    compile 'com.google.code.gson:gson-parent:2.8.1'
+    compile 'com.google.code.gson:gson:2.8.1'
+    // Picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    // PagerSlidingTabStrip
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    // FinestWebView
+    compile 'com.thefinestartist:finestwebview:1.2.7'
+    // NavigationTabBar
+    compile 'devlight.io:navigationtabbar:1.2.5'
+    // Enabling multidex support
+    compile 'com.android.support:multidex:1.0.1'
+}

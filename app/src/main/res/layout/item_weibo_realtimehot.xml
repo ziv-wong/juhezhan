@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_subscribe_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="10dp"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tvSearchIndex"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:text="@string/_933892"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/Color_Red"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tvSearchIndex"
+        android:layout_alignTop="@id/tvSearchIndex"
+        android:layout_toStartOf="@id/tvSearchIndex"
+        android:ellipsize="end"
+        android:gravity="left|center"
+        android:maxLines="2"
+        android:text="@string/weibo_realtimehot_title"
+        android:textSize="22sp"
+        />
+
+
+</RelativeLayout>

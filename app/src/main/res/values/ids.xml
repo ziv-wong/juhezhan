@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tab_0" type="id" />
+    <item name="pager_0" type="id"></item>
+    <item name="tab_1" type="id"></item>
+    <item name="pager_1" type="id"></item>
+    <item name="tab_2" type="id"></item>
+    <item name="pager_2" type="id"></item>
+    <item name="tab_3" type="id"></item>
+    <item name="pager_3" type="id"></item>
+    <item name="tab_4" type="id"></item>
+    <item name="pager_4" type="id"></item>
+    <item name="tab_5" type="id"></item>
+    <item name="pager_5" type="id"></item>
+    <item name="tab_6" type="id"></item>
+    <item name="pager_6" type="id"></item>
+    <item name="tab_7" type="id"></item>
+    <item name="pager_7" type="id"></item>
+    <item name="tab_8" type="id"></item>
+    <item name="pager_8" type="id"></item>
+    <item name="tab_9" type="id"></item>
+    <item name="pager_9" type="id"></item>
+    <item name="tab_10" type="id"></item>
+    <item name="pager_10" type="id"></item>
+
+    <item name="tab_11" type="id"></item>
+    <item name="pager_11" type="id"></item>
+    <item name="tab_12" type="id"></item>
+    <item name="pager_12" type="id"></item>
+    <item name="tab_13" type="id"></item>
+    <item name="pager_13" type="id"></item>
+    <item name="tab_14" type="id"></item>
+    <item name="pager_14" type="id"></item>
+    <item name="tab_15" type="id"></item>
+    <item name="pager_15" type="id"></item>
+    <item name="tab_16" type="id"></item>
+    <item name="pager_16" type="id"></item>
+    <item name="tab_17" type="id"></item>
+    <item name="pager_17" type="id"></item>
+    <item name="tab_18" type="id"></item>
+    <item name="pager_18" type="id"></item>
+    <item name="tab_19" type="id"></item>
+    <item name="pager_19" type="id"></item>
+    <item name="tab_20" type="id"></item>
+    <item name="pager_20" type="id"></item>
+</resources>

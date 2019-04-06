@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layoutUser"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp">
+
+        <ImageView
+            android:id="@+id/imgUserHead"
+            android:layout_width="60dp"
+            android:src="@drawable/sora"
+            android:scaleType="fitCenter"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@id/imgUserHead"
+            android:gravity="left|center"
+            android:paddingEnd="20dp"
+            android:textColor="@color/colorMainClass"
+            android:paddingStart="20dp"
+            android:text="@string/ziv_subsribe"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+
+    <com.ziv.juhezhan.recyclerview.MyRecyclerView
+        android:id="@+id/listUserClassify"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/layoutUser"/>
+
+</RelativeLayout>

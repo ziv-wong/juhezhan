@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">聚合站</string>
+
+    <string name="douban">豆瓣</string>
+    <string name="hupu">虎扑</string>
+    <string name="zhihu">知乎</string>
+    <string name="douyu">斗鱼</string>
+    <string name="wzry">王者荣耀</string>
+    <string name="weibo">微博</string>
+
+    <string name="c_copied_to_clipboard">已复制到剪贴板</string>
+    <string name="c_refresh">刷新</string>
+    <string name="c_share_via">分享</string>
+    <string name="c_copy_link">复制链接</string>
+    <string name="c_open_with">用其他应用打开</string>
+
+    <string name="subscribe">订阅</string>
+    <string name="discover">发现</string>
+    <string name="setting">设置</string>
+    <string name="unsubsribe">退订</string>
+    <string name="no_data">暂无数据</string>
+    <string name="first_hint">请选择你感兴趣的分类</string>
+    <string name="confirm">确定</string>
+
+    <string name="ziv_subsribe">Ziv 已订阅的</string>
+    <string name="sport">体育</string>
+    <string name="douban_movie_example_title">蜘蛛侠：英雄归来</string>
+    <string name="_7_7">7.7</string>
+    <string name="douban_movie_example_director">导演：乔·沃茨</string>
+    <string name="douban_movie_example_actor">主演：汤姆·霍兰德 / 小罗伯特·唐尼 / 玛丽莎·托梅</string>
+    <string name="_9_5">9.5</string>
+    <string name="douban_newbook_title">这里</string>
+    <string name="_2017_10">douban_newbook_author</string>
+    <string name="douban_popularbook_title">不可思议的朋友</string>
+    <string name="douban_popularbook_author">作者：[日] 田岛征彦</string>
+    <string name="douyu_game_author">SARO</string>
+    <string name="_3617">3617</string>
+    <string name="douyu_game_title">❤️致郁系播音员(ΦωΦ)</string>
+    <string name="hupu_bxj_title">转八组：李雨桐流产的时候孩子七个月！</string>
+    <string name="hupu_bxj_comment">25亮616回复</string>
+    <string name="hupu_vote_title">湿乎乎的话题区版规(严禁黑蜜论群体攻击，恶意挖坟永久)</string>
+    <string name="weibo_novelty_title">比尔盖茨书房首度全景公开，戳↓第一视角感受</string>
+    <string name="_933892">933892</string>
+    <string name="weibo_realtimehot_title">我羽绒服都穿了 你给我看这个</string>
+    <string name="zhihu_daily_title">后来，只要他们出现，人们便会说：「看啊，传奇的一代」</string>
+    <string name="no_subscribe">暂无订阅</string>
+</resources>
