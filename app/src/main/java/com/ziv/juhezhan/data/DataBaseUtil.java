@@ -115,8 +115,7 @@ public class DataBaseUtil {
             }
             String content = new String(arrayOutputStream.toByteArray(), "UTF-8");
             Gson gson = new Gson();
-            data = gson.fromJson(content, new TypeToken<Classify>() {
-            }.getType());
+            data = gson.fromJson(content, new TypeToken<Classify>() {}.getType());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } finally {

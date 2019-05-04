@@ -78,7 +78,7 @@ public class BeanHelper {
                 break;
         }
 
-        return result;
+        return "api/"+result;
     }
 
 }

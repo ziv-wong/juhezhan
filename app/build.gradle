@@ -9,12 +9,12 @@ android {
     configurations.all {
         resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
     }
-    compileSdkVersion 25
+    compileSdkVersion 26
     buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.ziv.juhezhan"
-        minSdkVersion 19
-        targetSdkVersion 25
+        minSdkVersion 26
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -29,7 +29,7 @@ android {
     }
 }
 
-def support_version = "25.4.0"
+def support_version = "26.1.0"
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
@@ -46,7 +46,7 @@ dependencies {
     // Retrofit
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.0.2'
-    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    compile 'com.squareup.okhttp3:okhttp:3.7.0'
     compile 'com.google.code.gson:gson-parent:2.8.1'
     compile 'com.google.code.gson:gson:2.8.1'
     // Picasso
@@ -58,5 +58,5 @@ dependencies {
     // NavigationTabBar
     compile 'devlight.io:navigationtabbar:1.2.5'
     // Enabling multidex support
-    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:multidex:1.0.3'
 }

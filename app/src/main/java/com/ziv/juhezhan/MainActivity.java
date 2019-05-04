@@ -15,8 +15,6 @@ import devlight.io.library.ntb.NavigationTabBar;
 public class MainActivity extends AppCompatActivity {
 
     private NavigationTabBar tabs;
-    private ViewPager        pager;
-    private MainPagerAdapter adapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -31,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         super.onConfigurationChanged(newConfig);
     }
 
-
+    // 初始化视图，构建底部导航栏
     private void initView() {
-        pager = (ViewPager) findViewById(R.id.pager_main);
+        ViewPager pager = (ViewPager) findViewById(R.id.pager_main);
 
-        adapter = new MainPagerAdapter(getSupportFragmentManager());
+        MainPagerAdapter adapter = new MainPagerAdapter(getSupportFragmentManager());
 
         pager.setAdapter(adapter);
         pager.setOffscreenPageLimit(3);
